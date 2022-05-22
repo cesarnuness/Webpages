@@ -64,7 +64,6 @@ a:link {
   bottom: 300px;
 }
 
-<<<<<<< HEAD
 .justifier {
   width: 70%;
   margin: 0px auto 100px auto;
@@ -74,10 +73,6 @@ a:link {
 
 .skill-row {
   width: 70%;
-=======
-.skill-row {
-  width: 50%;
->>>>>>> ca2b5e0bf059fda12533116591078c62c72fc4cb
   margin: 100px auto 100px auto;
   text-align: left;
   line-height: 2;
@@ -113,13 +108,10 @@ a:link {
 
 }
 
-<<<<<<< HEAD
 .github {
   height: 15%;
 }
 
-=======
->>>>>>> ca2b5e0bf059fda12533116591078c62c72fc4cb
 .btn:hover {
   background: #30e3cb;
   background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
@@ -138,10 +130,5 @@ a:link {
 }
 
 .personal-picture {
-<<<<<<< HEAD
   height: 15%;
 }
-=======
-  width: 25%;
-}
->>>>>>> ca2b5e0bf059fda12533116591078c62c72fc4cb
