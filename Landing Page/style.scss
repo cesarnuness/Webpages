@@ -1,9 +1,15 @@
+$color0 : #E9D5DA;
+$color1: #827397;
+$color2: #4D4C7D;
+$color3: #363062;
+
+
 body {
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0;
     border: 0;
     margin: 0;
+
 }
 
 ul,
@@ -27,37 +33,27 @@ a {
 }
 
 .navigation-links {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
+
 }
 
 .navbackground {
-    background-color: #E9D5DA;
+    background-color: $color0;
+
 }
 
 .left-content {
     max-width: 50%;
     padding: 150px 100px 200px 100px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
+
 }
 
 .right-content {
     max-width: 50%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
 }
 
@@ -65,50 +61,37 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
     align-self: center;
     max-width: 600px;
+
 }
 
 .content-container-1 {
-    background-color: #E9D5DA;
+    background-color: $color0;
     margin: 0;
     border: 0;
     padding: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
 }
+
+
 
 .content-container-2 {
     background-color: #827397;
     margin: 0;
     border: 0;
     padding: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
     text-align: center;
     height: 600px;
 }
 
 .lista-produtos {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -ms-flex-pack: distribute;
     justify-content: space-around;
     padding-top: 80px;
 }
@@ -124,31 +107,26 @@ figcaption {
 }
 
 .img-one {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     text-align: center;
 }
 
 .img-two {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     text-align: center;
+
 }
 
 .img-three {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     text-align: center;
+
 }
 
 .img-four {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     text-align: center;
+
 }
 
 .content-container-3 {
@@ -156,18 +134,12 @@ figcaption {
     margin: 0;
     border: 0;
     padding: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
     height: 350px;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
+
 }
 
 .quote {
@@ -176,11 +148,7 @@ figcaption {
     max-width: 700px;
     padding: 50px;
     max-height: 100px;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
     align-self: center;
 }
 
@@ -188,6 +156,8 @@ figcaption {
     text-align: right;
     padding-left: 450px;
     text-align: justify;
+
+
 }
 
 .content-container-4 {
@@ -195,42 +165,36 @@ figcaption {
     margin: 0;
     border: 0;
     padding: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
     height: 350px;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -ms-flex-item-align: center;
     align-self: center;
+
+
 }
 
 .buy-now {
-    background-color: #E9D5DA;
+    background-color: $color0;
     max-height: 350px;
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
     border-radius: 15px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
+
 }
 
+
+
 footer {
-    background-color: #E9D5DA;
+    background-color: $color0;
     padding: 20px;
     text-align: center;
+
 }
 
 h1,
@@ -248,14 +212,17 @@ blockquote,
 a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+
 }
 
 .btn {
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
     border-radius: 10px;
     font-family: Arial;
     color: #827397;
     font-size: 20px;
-    background: #E9D5DA;
+    background: $color0;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     border-style: solid;
@@ -273,6 +240,7 @@ a {
     padding-top: 30px;
 }
 
+
 .produto {
     max-width: 15%;
     max-height: auto;
@@ -281,5 +249,3 @@ a {
 figcaption {
     max-width: 15%;
 }
-
-/*# sourceMappingURL=style.css.map */
